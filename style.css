@@ -1,16 +1,19 @@
-
+/*
 html, body{
-  margin: 0px;
-  margin-top: -8px;
   background: #3D9970;
-}
+} */
 
 .menu{
-  border-color: black;
-  border-radius: 5px;
-  margin-top: 0;
+  position: relative;
+  margin: -16px 1000px 0px -8px;
+
   background-color: lightgray;
-  width: 100%;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 40px 50px;
+  font-family: fantasy;
 }
 
 .menu a{
@@ -20,17 +23,6 @@ html, body{
 }
 
 
-.menu li{
-  display: inline-block;
-  margin: 10px;
-  padding: 40px 70px;
-  text-align-last: center;
-  font-family: fantasy;
-}
-
 .pic{
   width: 100px;
-
-
-
 }
