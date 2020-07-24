@@ -1,27 +1,65 @@
-/*
-html, body{
-  background: #3D9970;
-} */
+
+body{
+  /* width: 100%;
+  height: auto; */
+  /* min-width: 1900px; */
+   /* background: #B486C2; */
+}
 
 .menu{
+padding: 20px;
+margin-left: -8px;
+margin-top: -8px;
   position: relative;
-  margin: -16px 1000px 0px -8px;
-
   background-color: lightgray;
 }
 
 .menu li{
-  display: inline-block;
-  padding: 40px 50px;
+  display: inline;
+  padding: 30px;
   font-family: fantasy;
 }
 
-.menu a{
-  text-decoration: black;
+ .menu a{
+  text-decoration: none;
   color: blue;
   cursor: pointer;
 }
 
+.logo{
+  background-image: url("images/S_logo.jpg");
+  background-size: 1260px;
+  border-radius: 50%;
+  position: relative;
+  top: -13px;
+  text-indent: -99999999px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+
+}
+
+.AboutMe, .Experience, .Projects{
+  margin-left: -8px;
+  color: white;
+  background-color: gray;
+  padding: 100px;
+  display: flex;
+  flex-direction: row
+}
+
+footer{
+  margin-left: -8px;
+  color: white;
+  background-color: lightgray;
+  padding: 100px;
+}
+
+div{
+  background: blue;
+  margin: auto;
+  width: 100px;
+}
 
 .pic{
   width: 100px;
