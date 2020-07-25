@@ -27,8 +27,8 @@ margin-top: -8px;
 }
 
 .logo{
-  background-image: url("images/S_logo.jpg");
-  background-size: 1260px;
+  background-image: url("images/newSlogo.jpg");
+  /* background-size: 60px; */
   border-radius: 50%;
   position: relative;
   top: -13px;
@@ -42,25 +42,32 @@ margin-top: -8px;
 .AboutMe, .Experience, .Projects{
   margin-left: -8px;
   color: white;
-  background-color: gray;
+  background-color: #d0a1d9;
   padding: 100px;
   display: flex;
-  flex-direction: row
+  flex-direction: row;
+  font-size: 20px;
+
 }
+
+.text{
+  display: block;
+  box-sizing: inherit;
+}
+
+.AboutMe div{
+  margin-left: -8px;
+}
+
+.AboutMe .pic{
+  width: 200px;
+  margin-left: 400px;
+}
+
 
 footer{
   margin-left: -8px;
   color: white;
   background-color: lightgray;
   padding: 100px;
-}
-
-div{
-  background: blue;
-  margin: auto;
-  width: 100px;
-}
-
-.pic{
-  width: 100px;
 }
