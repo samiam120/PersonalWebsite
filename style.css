@@ -39,7 +39,7 @@ margin-top: -8px;
 
 }
 
-.AboutMe, .Experience, .Projects{
+.AboutMe, .Experience, .Projects, .flex-container{
   margin-left: -8px;
   color: white;
   background-color: #d0a1d9;
@@ -50,10 +50,16 @@ margin-top: -8px;
 
 }
 
+h2{
+  color: black;
+}
+
+
 .text{
   display: block;
   box-sizing: inherit;
 }
+
 
 .AboutMe div{
   margin-left: -8px;
@@ -62,6 +68,7 @@ margin-top: -8px;
 .AboutMe .pic{
   width: 200px;
   margin-left: 400px;
+  margin-top: 20px;
 }
 
 
@@ -70,4 +77,13 @@ footer{
   color: white;
   background-color: lightgray;
   padding: 100px;
+  border: 1px black;
+}
+
+#fname, #lname, #message{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #black;
+  margin-top: 5px;
+  resize: vertical;
 }

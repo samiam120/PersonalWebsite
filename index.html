@@ -8,7 +8,6 @@
   <body>
       <nav class = "menu">
         <ul>
-
           <li> <a class="blue logo" href="index.html">logo </a></li>
           <li> <a class="blue" href="index.html"> About Me</a></li>
           <li> <a class="blue" href"projects.html">Projects</a></li>
@@ -17,10 +16,15 @@
           <li> <a href="resume.PDF" target="_blank">Resume</a></li>
         </ul>
       </nav>
+      <section>
+        <div class="flex-container">
+          <h2 class="typeWriter"> Hello, my name is Sam</h2>
+        </div>
+      </section>
       <section class="AboutMe">
         <div class="text">
           <h2>About </h2>
-          <p>Hello, my name is Sam and I'm an aspiring software engineer. <br>
+          <p id="text2"> My name is Sam and I'm an aspiring software engineer. <br>
             I'm currently learning Java, but have also taken an interest in Web Development.
           </p>
           <p>I'm an upcoming sophmore at the <em>University Of Washington</em>, studying computer science.</p>
@@ -53,14 +57,35 @@
       <section class="Projects">
         <div>
           <h2>Projects</h2>
-          
+
         </div>
       </section>
-      <footer> Contact</footer>
+      <footer>
+        <h2>Contact </h2>
+        <form>
+          <labelfor="fname">First Name: </label>
+          <input type="text" id="fname" name="first name" placeholder="First Name" value="" required>
+          <br>
+          <br>
+          <labelfor="lname">Last  Name: </label>
+          <input type="text" id="lname"name=" Last name" placeholder="Last Name" value="" required>
+          <br>
+          <br>
+          <label for="message">Message:</label>
+          <br>
+          <textarea name="Message" id="message" name="message" placeholder="Message" style="height: 150px"  required></textarea>
+
+          <br>
+          <br>
+          <input type="submit" value="Submit">
+
+        </form>
+      </footer>
 
 
 
 
 
   </body>
+  <script src="scripts/script.js"></script>
 </html>
