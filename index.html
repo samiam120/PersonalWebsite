@@ -2,6 +2,7 @@
 <html>
   <head>
 
+
     <title>About Me</title>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -14,18 +15,17 @@
           <li> <a class="blue" href"experience.html">Experience</a></li>
           <li> <a class="blue" href"contact.html">Contact </a></li>
           <li> <a href="resume.PDF" target="_blank">Resume</a></li>
+          <button id="nightMode"type="button" name="button">Dark Mode</button>
         </ul>
-      </nav>
-      <section>
-        <div class="flex-container">
-          <h2 class="typeWriter"> Hello, my name is Sam</h2>
         </div>
-      </section>
-      <section class="AboutMe">
-        <div class="text">
-          <h2>About </h2>
-          <p id="text2"> My name is Sam and I'm an aspiring software engineer. <br>
-            I'm currently learning Java, but have also taken an interest in Web Development.
+      </nav>
+
+    <div class="flex-container">
+        <section>
+          <div class="mainBody">
+            <div class="IntroMsg">
+              <h2>Hello, My name is Sam</h2>
+              <p id="text"> 
           </p>
           <p>I'm an upcoming sophmore at the <em>University Of Washington</em>, studying computer science.</p>
           <p> Here are some languages I've been working with:
@@ -35,31 +35,15 @@
                 <li>Python</li>
               </ul>
             </p>
-        </div>
-          <img class="pic"src="/Users/sam/Mywebsite/PersonalWebsite/images/IMG_2424 2.PNG">
-        <div>
-        </div>
+            </div>
 
-      </section>
-      <section class="Experience">
-        <div>
-        <h2> Experience/Clubs </h2>
-        <dl>
-          <dt>Google CSII</dt>
-          <dd>- Description of Google CSSI</dd>
-          <br>
-          <dt>UW Avela</dt>
-          <dd>- Math Academy</dd>
-        </dl>
+            </p>
+          </div>
+        </section>
       </div>
-      </section>
+    </div>
 
-      <section class="Projects">
-        <div>
-          <h2>Projects</h2>
 
-        </div>
-      </section>
       <footer>
         <h2>Contact </h2>
         <form>
@@ -74,18 +58,12 @@
           <label for="message">Message:</label>
           <br>
           <textarea name="Message" id="message" name="message" placeholder="Message" style="height: 150px"  required></textarea>
-
           <br>
           <br>
-          <input type="submit" value="Submit">
-
+          <input type="submit" id="submitButton" value="Submit">
         </form>
       </footer>
 
-
-
-
-
+      <script src="scripts/script.js"></script>
   </body>
-  <script src="scripts/script.js"></script>
 </html>
