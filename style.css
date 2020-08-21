@@ -76,10 +76,9 @@ background-color: lightgray;
 
 .IntroMsg, .AboutMe, .Experience{
   font-size: 20px;
-  position: absolute;
+  /* position: absolute; */
   left: 25%;
 }
-
 
 
 .text, p{
@@ -125,8 +124,10 @@ footer{
  }
 
  .tabContainer{
-   width: 100%;
+   margin: auto;
+   width: 500px;
    height: 350px;
+
  }
 
  .tabContainer .buttonContainer{
@@ -134,7 +135,7 @@ footer{
  }
 
  .tabContainer .buttonContainer button{
-   width: 25%;
+   width: 33.33%;
    height: 100%;
    float: left;
    border: none;
@@ -146,15 +147,19 @@ footer{
  }
 
   .tabContainer .buttonContainer button:hover{
-    background-color: #ccc;
+    background-color: gold;
   }
 
   .tabPanel{
-    text-align: center;
-    height: 50%;
-    background-color: lightgray;
+    height: 85%;
+    background-color: purple;
     color: white;
-    padding-top: 50px;
+    padding-top: 5px;
+    padding-left: 5px;
     box-sizing: border-box;
     display: none;
+  }
+
+  .tabPanel a{
+    color: white;
   }
