@@ -125,8 +125,8 @@ footer{
 
  .tabContainer{
    margin: auto;
-   width: 500px;
-   height: 350px;
+   width: 750px;
+   height: 300px;
 
  }
 
@@ -135,7 +135,7 @@ footer{
  }
 
  .tabContainer .buttonContainer button{
-   width: 33.33%;
+   width: 50%;
    height: 100%;
    float: left;
    border: none;
