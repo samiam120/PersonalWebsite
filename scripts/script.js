@@ -2,6 +2,7 @@
 var night = document.getElementById("nightMode");
 var color = document.body;
 
+
 function darkMode(){
   color.classList.toggle("dark");
 }
@@ -28,4 +29,19 @@ function showPanel(panelIndex, colorCode){
   tabPanels[panelIndex].style.backgroundColor="colorCode";
 }
 
-showPanel(0, 'lightgray');
+
+//navBar effects
+
+// var navBarIcons = document.querySelector(".menu .blue");
+//
+// function glow)(){
+//   navBarIcons.classList.add(".greenGlow");
+//   setTimeOut(function(), ){
+//
+//   }
+//
+// }
+
+function main(){
+  showPanel(0, 'lightgray');
+}

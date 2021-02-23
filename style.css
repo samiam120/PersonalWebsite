@@ -1,13 +1,9 @@
 
 body{
-  background-color: #FFC0CB;
+  background-color: #D4AFD5;
   color: black;
 }
 
-.dark{
-  background-color: black;
-  color: white;
-}
 
 
 .menu{
@@ -16,6 +12,9 @@ margin-left: -8px;
 margin-right: -8px;
 margin-top: -8px;
 background-color: lightgray;
+transition: top 0.3s;
+position: fixed;
+width: 100%;
 }
 
 .menu li{
@@ -25,11 +24,19 @@ background-color: lightgray;
   font-family: fantasy;
 }
 
+
+
 #nightMode{
   cursor: pointer;
   padding: 5px;
   border-radius: 5px;
 }
+
+.dark{
+  background-color: #24272E;
+  color: white;
+}
+
 
  .menu a{
   text-decoration: none;
@@ -162,4 +169,8 @@ footer{
 
   .tabPanel a{
     color: white;
+  }
+
+  .navBarGlow{
+    border: solid green;
   }
