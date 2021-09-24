@@ -1,8 +1,12 @@
-
 body{
   background-color: #D4AFD5;
   color: black;
+  width:100%;
+  margin:auto;
+  min-width:600px;
+  max-width:2000px
 }
+
 
 
 
@@ -142,7 +146,7 @@ footer{
  }
 
  .tabContainer .buttonContainer button{
-   width: 50%;
+   width: 33.33%;
    height: 100%;
    float: left;
    border: none;
